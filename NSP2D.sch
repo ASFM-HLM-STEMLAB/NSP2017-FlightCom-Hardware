@@ -4990,6 +4990,9 @@ by R. Vogg  15.March.2002</description>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/6W" value="1K"/>
 <part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/6W" value="1K"/>
 <part name="LED3" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/6W" value="4.5k"/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/6W" value="4.5k"/>
+<part name="LI+7" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5036,6 +5039,9 @@ by R. Vogg  15.March.2002</description>
 <instance part="R2" gate="G$1" x="86.36" y="68.58" rot="R180"/>
 <instance part="R4" gate="G$1" x="86.36" y="63.5" rot="R180"/>
 <instance part="LED3" gate="G$1" x="106.68" y="60.96" rot="MR0"/>
+<instance part="R6" gate="G$1" x="154.94" y="99.06" rot="R270"/>
+<instance part="R7" gate="G$1" x="162.56" y="99.06" rot="R270"/>
+<instance part="LI+7" gate="G$1" x="157.48" y="109.22"/>
 </instances>
 <busses>
 </busses>
@@ -5115,6 +5121,15 @@ by R. Vogg  15.March.2002</description>
 <wire x1="200.66" y1="48.26" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 <junction x="200.66" y="48.26"/>
 <pinref part="LI+6" gate="G$1" pin="V_BATT"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="104.14" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
+<junction x="157.48" y="104.14"/>
+<pinref part="LI+7" gate="G$1" pin="V_BATT"/>
 </segment>
 </net>
 <net name="UART5_RX" class="0">
@@ -5216,6 +5231,12 @@ by R. Vogg  15.March.2002</description>
 <wire x1="109.22" y1="38.1" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="38.1" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
 <junction x="109.22" y="38.1"/>
+<label x="88.9" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="93.98" x2="154.94" y2="88.9" width="0.1524" layer="91"/>
+<label x="147.32" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="UART4_RX" class="0">
@@ -5321,6 +5342,12 @@ by R. Vogg  15.March.2002</description>
 <wire x1="76.2" y1="25.4" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
 <junction x="109.22" y="35.56"/>
+<label x="91.44" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="162.56" y1="93.98" x2="162.56" y2="88.9" width="0.1524" layer="91"/>
+<label x="167.64" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
