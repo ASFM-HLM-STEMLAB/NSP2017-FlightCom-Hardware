@@ -5240,7 +5240,7 @@ by R. Vogg  15.March.2002</description>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="BASE" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="139.7" y1="55.88" x2="142.24" y2="55.88" width="0.1524" layer="91"/>
@@ -5282,7 +5282,7 @@ by R. Vogg  15.March.2002</description>
 <junction x="198.12" y="45.72"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="RX" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="RX"/>
 <wire x1="40.64" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
@@ -5320,7 +5320,7 @@ by R. Vogg  15.March.2002</description>
 <wire x1="96.52" y1="40.64" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="TX" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="TX"/>
 <pinref part="GPS" gate="G$1" pin="2"/>
