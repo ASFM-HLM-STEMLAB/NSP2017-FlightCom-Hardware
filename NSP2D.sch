@@ -5511,6 +5511,9 @@ CAP-08070</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="204,1,40.64,91.44,MCU,VIN,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
