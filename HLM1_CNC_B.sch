@@ -4940,6 +4940,99 @@ by R. Vogg  15.March.2002</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SparkFun-Capacitors">
+<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
+This library contains capacitors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CPOL-RADIAL-5MM-10MM">
+<description>5 mm spaced PTHs in 10 mm diameter silk ring</description>
+<wire x1="-1.905" y1="2.54" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.9" diameter="1.9304"/>
+<pad name="+" x="2.5" y="0" drill="0.9" diameter="1.9304" shape="square"/>
+<text x="0" y="-5.207" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<text x="0" y="5.207" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<wire x1="3.175" y1="2.54" x2="1.905" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="3.175" x2="2.54" y2="1.905" width="0.2032" layer="21"/>
+</package>
+<package name="CPOL-RADIAL-5MM-10MM-KIT">
+<description>5 mm spaced PTHs, with 10 mm silk ring and no exposed copper on top</description>
+<wire x1="-1.905" y1="2.54" x2="-3.175" y2="2.54" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.2032" layer="21"/>
+<pad name="-" x="-2.5" y="0" drill="0.9" diameter="1.9304" stop="no"/>
+<pad name="+" x="2.5" y="0" drill="0.9" diameter="1.9304" shape="square" stop="no"/>
+<text x="0" y="-5.207" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+<text x="0" y="5.207" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<circle x="-2.5" y="0" radius="0.447040625" width="0" layer="29"/>
+<circle x="2.5" y="0" radius="0.45" width="0" layer="29"/>
+<rectangle x1="1.5" y1="-1" x2="3.5" y2="1" layer="30"/>
+<circle x="-2.5" y="0" radius="0.9779" width="0" layer="30"/>
+<wire x1="3.008" y1="2.54" x2="1.992" y2="2.54" width="0.2032" layer="21"/>
+<wire x1="2.5" y1="3.048" x2="2.5" y2="2.032" width="0.2032" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="CAP_POL">
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1" x2="2.4892" y2="-1.8542" width="0.254" layer="94" curve="-37.878202" cap="flat"/>
+<wire x1="-2.4669" y1="-1.8504" x2="0" y2="-1.0161" width="0.254" layer="94" curve="-37.376341" cap="flat"/>
+<text x="1.016" y="0.635" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.016" y="-4.191" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.253" y1="0.668" x2="-1.364" y2="0.795" layer="94"/>
+<rectangle x1="-1.872" y1="0.287" x2="-1.745" y2="1.176" layer="94"/>
+<pin name="+" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="-" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="1000UF" prefix="C">
+<description>&lt;h3&gt;1,000µF/1mF ceramic capacitors&lt;/h3&gt;
+&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;
+CAP-08070</description>
+<gates>
+<gate name="G$1" symbol="CAP_POL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-RADIAL-5MM-25V-20%" package="CPOL-RADIAL-5MM-10MM">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09538"/>
+<attribute name="VALUE" value="1mF"/>
+</technology>
+</technologies>
+</device>
+<device name="-RADIAL-5MM-35V-20%-KIT" package="CPOL-RADIAL-5MM-10MM-KIT">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-09538"/>
+<attribute name="VALUE" value="1mf"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4988,6 +5081,8 @@ by R. Vogg  15.March.2002</description>
 <part name="LED1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="LED2" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/6W" value="1K"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" value="1mF"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5032,6 +5127,8 @@ by R. Vogg  15.March.2002</description>
 <instance part="LED1" gate="G$1" x="101.6" y="68.58" rot="MR0"/>
 <instance part="LED2" gate="G$1" x="104.14" y="58.42" rot="MR0"/>
 <instance part="R2" gate="G$1" x="86.36" y="60.96" rot="R180"/>
+<instance part="C1" gate="G$1" x="114.3" y="86.36"/>
+<instance part="GND10" gate="1" x="121.92" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -5066,7 +5163,11 @@ by R. Vogg  15.March.2002</description>
 <wire x1="119.38" y1="93.98" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="LI+IN" gate="G$1" pin="1"/>
 <wire x1="109.22" y1="96.52" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="91.44" x2="114.3" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="+"/>
+<wire x1="114.3" y1="91.44" x2="109.22" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="91.44" x2="114.3" y2="88.9" width="0.1524" layer="91"/>
+<junction x="114.3" y="91.44"/>
 </segment>
 <segment>
 <pinref part="LI+1" gate="G$1" pin="V_BATT"/>
@@ -5186,6 +5287,12 @@ by R. Vogg  15.March.2002</description>
 <wire x1="93.98" y1="58.42" x2="93.98" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="58.42" x2="93.98" y2="58.42" width="0.1524" layer="91"/>
 <junction x="93.98" y="58.42"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="114.3" y1="81.28" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="81.28" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND10" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="IRWKP" class="0">
