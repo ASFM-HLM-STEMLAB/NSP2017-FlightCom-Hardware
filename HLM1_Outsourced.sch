@@ -7226,7 +7226,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="XTEMP" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="HEATPADS" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
+<part name="HEAT" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="LI+6" library="SparkFun-PowerSymbols" deviceset="V_BATT" device=""/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/6W" value="10K"/>
@@ -7243,24 +7243,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="1000UF" device="-RADIAL-5MM-25V-20%" value="1mF"/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="B1" library="SparkFun-Boards" deviceset="SPARKFUN_LOGIC_LEVEL_CONVERTER" device=""/>
+<part name="B1" library="SparkFun-Boards" deviceset="SPARKFUN_LOGIC_LEVEL_CONVERTER" device="" value="LOGIC LEVEL SHIFTER"/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_06" device="SILK_FEMALE_PTH"/>
+<part name="SATCOM" library="SparkFun-Connectors" deviceset="CONN_06" device="SILK_FEMALE_PTH"/>
 <part name="3V3" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-FQP30N06L" value="60V/32A/35mΩ"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-FQP30N06L" value="MOSFET"/>
 <part name="SW1" library="SparkFun-Connectors" deviceset="CONN_02" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SONAR" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="455-1750-1-ND"/>
+<part name="SONAR" library="SparkFun-Connectors" deviceset="CONN_03" device="" value="SONAR"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="ITEMP" library="SparkFun-Sensors" deviceset="TMP36" device="GT9"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
+<part name="SD" library="SparkFun-Connectors" deviceset="M06" device="NO_SILK_FEMALE_PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -7293,7 +7293,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="XTEMP" gate="J$1" x="0" y="68.58"/>
 <instance part="SUPPLY1" gate="G$1" x="12.7" y="86.36"/>
 <instance part="GND6" gate="1" x="12.7" y="53.34"/>
-<instance part="HEATPADS" gate="G$1" x="210.82" y="43.18" rot="MR0"/>
+<instance part="HEAT" gate="G$1" x="210.82" y="43.18" rot="MR0"/>
 <instance part="GND7" gate="1" x="193.04" y="22.86"/>
 <instance part="LI+6" gate="G$1" x="200.66" y="55.88"/>
 <instance part="R5" gate="G$1" x="177.8" y="33.02" rot="R270"/>
@@ -7313,7 +7313,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="B1" gate="G$1" x="101.6" y="-12.7"/>
 <instance part="GND11" gate="1" x="99.06" y="-27.94"/>
 <instance part="SUPPLY5" gate="G$1" x="63.5" y="-7.62"/>
-<instance part="J3" gate="G$1" x="177.8" y="5.08" rot="MR0"/>
+<instance part="SATCOM" gate="G$1" x="177.8" y="5.08" rot="MR0"/>
 <instance part="3V3" gate="G$1" x="182.88" y="71.12" rot="MR0"/>
 <instance part="GND12" gate="1" x="170.18" y="66.04"/>
 <instance part="SUPPLY6" gate="G$1" x="170.18" y="78.74"/>
@@ -7327,7 +7327,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND14" gate="1" x="5.08" y="0"/>
 <instance part="SUPPLY9" gate="G$1" x="5.08" y="20.32"/>
 <instance part="GND21" gate="1" x="172.72" y="17.78"/>
-<instance part="JP2" gate="G$1" x="160.02" y="27.94"/>
+<instance part="SD" gate="G$1" x="160.02" y="27.94"/>
 </instances>
 <busses>
 </busses>
@@ -7396,7 +7396,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="3"/>
+<pinref part="SD" gate="G$1" pin="3"/>
 <wire x1="165.1" y1="27.94" x2="167.64" y2="27.94" width="0.1524" layer="91"/>
 <label x="168.148" y="26.924" size="1.778" layer="95"/>
 </segment>
@@ -7416,7 +7416,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LI+1" gate="G$1" pin="V_BATT"/>
 <wire x1="104.14" y1="20.32" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="12.7" x2="104.14" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="6"/>
+<pinref part="SATCOM" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <pinref part="LI+3" gate="G$1" pin="V_BATT"/>
@@ -7447,10 +7447,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="121.92" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="HEATPADS" gate="G$1" pin="4"/>
+<pinref part="HEAT" gate="G$1" pin="4"/>
 <wire x1="205.74" y1="48.26" x2="200.66" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="48.26" x2="200.66" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="HEATPADS" gate="G$1" pin="2"/>
+<pinref part="HEAT" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="43.18" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="48.26" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 <junction x="200.66" y="48.26"/>
@@ -7497,7 +7497,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="172.72" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="10.16" x2="104.14" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="5"/>
+<pinref part="SATCOM" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -7570,8 +7570,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="172.72" y1="25.4" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="22.86" x2="172.72" y2="22.86" width="0.1524" layer="91"/>
 <junction x="172.72" y="22.86"/>
-<pinref part="JP2" gate="G$1" pin="1"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="SD" gate="G$1" pin="1"/>
+<pinref part="SD" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="IRWKP" class="0">
@@ -7580,7 +7580,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="76.2" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="45.72" x2="99.06" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="7.62" x2="172.72" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="SATCOM" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -7615,7 +7615,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="165.1" y1="30.48" x2="167.64" y2="30.48" width="0.1524" layer="91"/>
 <label x="167.64" y="30.48" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
+<pinref part="SD" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="UART4_TX" class="0">
@@ -7632,7 +7632,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="165.1" y1="33.02" x2="167.64" y2="33.02" width="0.1524" layer="91"/>
 <label x="167.64" y="33.02" size="1.27" layer="95" rot="MR180" xref="yes"/>
-<pinref part="JP2" gate="G$1" pin="5"/>
+<pinref part="SD" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -7662,9 +7662,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="190.5" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="45.72" x2="198.12" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="HEATPADS" gate="G$1" pin="1"/>
+<pinref part="HEAT" gate="G$1" pin="1"/>
 <wire x1="198.12" y1="40.64" x2="205.74" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="HEATPADS" gate="G$1" pin="3"/>
+<pinref part="HEAT" gate="G$1" pin="3"/>
 <wire x1="198.12" y1="45.72" x2="205.74" y2="45.72" width="0.1524" layer="91"/>
 <junction x="198.12" y="45.72"/>
 <wire x1="190.5" y1="45.72" x2="190.5" y2="48.26" width="0.1524" layer="91"/>
@@ -7795,7 +7795,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="-5.08" x2="124.46" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="-5.08" x2="124.46" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="5.08" x2="172.72" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="SATCOM" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -7804,7 +7804,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="127" y1="2.54" x2="127" y2="-7.62" width="0.1524" layer="91"/>
 <pinref part="B1" gate="G$1" pin="HV_RXI_1"/>
 <wire x1="127" y1="-7.62" x2="116.84" y2="-7.62" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="SATCOM" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="5VREF" class="0">
@@ -7813,7 +7813,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="116.84" y1="-10.16" x2="160.02" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-10.16" x2="160.02" y2="0" width="0.1524" layer="91"/>
 <label x="162.56" y="-10.16" size="1.778" layer="95"/>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="SATCOM" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="0" x2="160.02" y2="0" width="0.1524" layer="91"/>
 </segment>
 </net>
