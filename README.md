@@ -14,6 +14,6 @@ ASFM Near Space Program 2017 - Flight Computer Hardware for HLM1 Capsule
 * You may order a PCB from our [OSHPARK PROJECT](https://www.oshpark.com/projects/XPm0Xe82)
 
 
-#####Designed and created at ASFM Monterrey Mexico, 2017 @ Humberto Lobo Morales STEM LAB
+##### Designed and created at ASFM Monterrey Mexico, 2017 @ Humberto Lobo Morales STEM LAB
 
 
