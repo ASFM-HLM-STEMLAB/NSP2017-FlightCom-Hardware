@@ -7672,7 +7672,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="190.5" y1="48.26" x2="187.96" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="RX" class="0">
 <segment>
 <pinref part="MCU" gate="G$1" pin="RX"/>
 <wire x1="40.64" y1="76.2" x2="30.48" y2="76.2" width="0.1524" layer="91"/>
@@ -7705,7 +7705,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="167.64" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="TX" class="0">
 <segment>
 <pinref part="MCU" gate="G$1" pin="TX"/>
 <pinref part="GPS" gate="G$1" pin="2"/>
