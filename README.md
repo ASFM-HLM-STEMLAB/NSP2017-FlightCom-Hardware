@@ -11,7 +11,10 @@ ASFM Near Space Program 2017 - Flight Computer Hardware for HLM1 Capsule
 	This files are for sending the board to a fab house to be made such as OshPark
 
 ## PCB Manufacturing
-* You may order a PCB from our [OSHPARK PROJECT](https://www.oshpark.com/projects/XPm0Xe82)
+* You may order a PCB from our [OSHPARK PROJECT R1.0](https://www.oshpark.com/projects/XPm0Xe82)
+* You may order a PCB from our [OSHPARK PROJECT R2.1](https://www.adafruit.com/product/3686)
+-> Release 2.1 has a XBee radio for coms and GPS switches to software serial.
+
 
 
 ##### Designed and created at ASFM Monterrey Mexico, 2017 @ Humberto Lobo Morales STEM LAB
