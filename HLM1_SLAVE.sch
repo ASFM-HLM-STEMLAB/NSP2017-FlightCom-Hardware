@@ -2719,121 +2719,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
-<library name="discrete" urn="urn:adsk.eagle:library:211">
-<description>Discrete devices (Antenna, Arrrester, Thermistor)</description>
-<packages>
-<package name="RS-2,5" urn="urn:adsk.eagle:footprint:12921/1" library_version="1">
-<description>&lt;b&gt;Resistor&lt;/b&gt;</description>
-<wire x1="-0.381" y1="0" x2="0.381" y2="0" width="0.127" layer="21"/>
-<circle x="-1.27" y="0" radius="1.27" width="0.127" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="1.27" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-2.54" y="1.524" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-<package name="R-7,5" urn="urn:adsk.eagle:footprint:12922/1" library_version="1">
-<description>&lt;b&gt;Resistor&lt;/b&gt;</description>
-<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="3.048" y2="0" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-3.048" y2="0" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.127" layer="21"/>
-<pad name="1" x="-3.81" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="3.81" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-2.54" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="R-5" urn="urn:adsk.eagle:footprint:12923/1" library_version="1">
-<description>&lt;b&gt;Resistor&lt;/b&gt;</description>
-<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.127" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="1.27" y1="0" x2="1.778" y2="0" width="0.127" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.778" y1="0" x2="-1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="0" width="0.127" layer="21"/>
-<wire x1="1.27" y1="0" x2="1.27" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="0" x2="-1.27" y2="-0.635" width="0.127" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<pad name="2" x="2.54" y="0" drill="0.8128" diameter="1.6002" shape="octagon"/>
-<text x="-2.54" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-1.27" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-</package>
-</packages>
-<packages3d>
-<package3d name="RS-2,5" urn="urn:adsk.eagle:package:12929/1" type="box" library_version="1">
-<description>Resistor</description>
-</package3d>
-<package3d name="R-7,5" urn="urn:adsk.eagle:package:12930/1" type="box" library_version="1">
-<description>Resistor</description>
-</package3d>
-<package3d name="R-5" urn="urn:adsk.eagle:package:12931/1" type="box" library_version="1">
-<description>Resistor</description>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="THERMIST" urn="urn:adsk.eagle:symbol:12920/1" library_version="1">
-<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
-<wire x1="3.1496" y1="-2.032" x2="2.032" y2="-2.032" width="0.254" layer="94"/>
-<wire x1="2.032" y1="-2.032" x2="-2.032" y2="2.032" width="0.254" layer="94"/>
-<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="THERMISTOR_" urn="urn:adsk.eagle:component:12937/1" prefix="TR" uservalue="yes" library_version="1">
-<description>&lt;b&gt;Thermo Resistor&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="THERMIST" x="0" y="0"/>
-</gates>
-<devices>
-<device name="R-2,5" package="RS-2,5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12929/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R-7,5" package="R-7,5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12930/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="R-5" package="R-5">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:12931/1"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2848,9 +2733,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <part name="DHT22" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
 <part name="TMP36" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 <part name="MS5607" library="SparkFun-Connectors" deviceset="CONN_07" device=""/>
-<part name="TR1" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="THERMISTOR_" device="R-5" package3d_urn="urn:adsk.eagle:package:12931/1"/>
-<part name="TR3" library="discrete" library_urn="urn:adsk.eagle:library:211" deviceset="THERMISTOR_" device="R-7,5" package3d_urn="urn:adsk.eagle:package:12930/1"/>
 <part name="DHT1" library="SparkFun-Connectors" deviceset="CONN_04" device=""/>
+<part name="TMP1" library="SparkFun-Connectors" deviceset="CONN_03" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2861,9 +2745,8 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <instance part="DHT22" gate="G$1" x="22.86" y="73.66"/>
 <instance part="TMP36" gate="J$1" x="20.32" y="55.88"/>
 <instance part="MS5607" gate="G$1" x="10.16" y="27.94"/>
-<instance part="TR1" gate="G$1" x="33.02" y="22.86"/>
-<instance part="TR3" gate="G$1" x="33.02" y="33.02"/>
 <instance part="DHT1" gate="G$1" x="116.84" y="55.88" rot="MR0"/>
+<instance part="TMP1" gate="J$1" x="119.38" y="73.66" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2920,23 +2803,23 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </segment>
 <segment>
 <pinref part="MS5607" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 <label x="17.78" y="22.86" size="1.778" layer="95"/>
-<pinref part="TR1" gate="G$1" pin="2"/>
-</segment>
-<segment>
 <pinref part="B1" gate="G$1" pin="GND1"/>
 <wire x1="55.88" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <label x="45.72" y="20.32" size="1.778" layer="95"/>
-<pinref part="TR1" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="22.86" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DHT1" gate="G$1" pin="3"/>
-<wire x1="111.76" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="58.42" x2="106.68" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="58.42" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
 <label x="104.14" y="45.72" size="1.778" layer="95"/>
+<wire x1="109.22" y1="58.42" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<junction x="109.22" y="58.42"/>
+<pinref part="TMP1" gate="J$1" pin="3"/>
+<wire x1="109.22" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="22" class="0">
@@ -2965,14 +2848,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </net>
 <net name="3V3" class="0">
 <segment>
-<pinref part="B1" gate="G$1" pin="3.3V"/>
-<wire x1="55.88" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<label x="48.26" y="38.1" size="1.778" layer="95"/>
-<wire x1="38.1" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="33.02" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="TR3" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="TMP36" gate="J$1" pin="3"/>
 <wire x1="27.94" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="30.48" y="58.42" size="1.778" layer="95"/>
@@ -2987,7 +2862,11 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="15.24" y1="25.4" x2="27.94" y2="25.4" width="0.1524" layer="91"/>
 <label x="17.78" y="25.4" size="1.778" layer="95"/>
 <wire x1="27.94" y1="25.4" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="TR3" gate="G$1" pin="2"/>
+<pinref part="B1" gate="G$1" pin="3.3V"/>
+<wire x1="55.88" y1="38.1" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<label x="48.26" y="38.1" size="1.778" layer="95"/>
+<wire x1="45.72" y1="33.02" x2="45.72" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3002,26 +2881,27 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <label x="106.68" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="0/RX1"/>
+<wire x1="88.9" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="63.5" x2="101.6" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="TMP1" gate="J$1" pin="1"/>
+<wire x1="101.6" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="1/TX1"/>
+<wire x1="88.9" y1="60.96" x2="104.14" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="60.96" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="TMP1" gate="J$1" pin="2"/>
+<wire x1="104.14" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
-<compatibility>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
-</note>
-</compatibility>
 </eagle>
